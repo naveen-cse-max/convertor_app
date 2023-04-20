@@ -1,0 +1,420 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image:url("./Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.intro{
+    font-family:sans-serif;
+    font-size:25px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 12px;
+    color:black;
+    border-radius: 10px;
+    border:1px solid #06538e ;
+    backdrop-filter: blur(15px);
+    word-spacing: 6px;
+}
+.flex{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.container{
+    margin: 30px;
+    margin-top: 40px;
+    border: 3px solid #FF69B4;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+    box-shadow: 2px #009688;
+}
+.container:hover{
+    color:#4315da;
+    border: 5px dotted #FF69B4;
+}
+.con1{
+    margin: 30px;
+    margin-top: 40px;
+    border: 3px solid rgb(13, 215, 233);
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 30%;
+    height:30%;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+    box-shadow: 12px #009688;
+}
+.con1:hover{
+    color: #a91cd0;
+    border: 5px dotted rgba(13,215,233);
+}
+.con2{
+    margin: 30px;
+    margin-top: 40px;
+    border: 3px solid rgb(122, 90, 236);
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 30%;
+    height:30%;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+    box-shadow: 12px #7eade4;
+}
+.con2:hover{
+    color: #f1a714;
+    border: 5px dotted rgb(122, 90, 236);
+}
+.con3{
+    margin: 30px;
+    margin-top: 40px;
+    border: 3px solid rgb(9, 147, 14);
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 30%;
+    height:30%;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+    box-shadow: 12px #7eade4;
+}
+.con3:hover{
+    color: #14f169;
+    border: 5px dotted rgb(12, 235, 87);
+}
+.con4{
+    margin: 30px;
+    margin-top: 40px;
+    border: 3px solid rgb(242, 234, 8);
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 30%;
+    height:30%;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+    box-shadow: 12px #7eade4;
+}
+.con4:hover{
+    color: #74711e;
+    border: 5px dotted rgb(242, 234, 8);
+}
+.con5{
+    margin: 30px;
+    margin-top: 40px;
+    border: 3px solid rgb(213, 21, 66);
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 30%;
+    height:30%;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+    box-shadow: 12px #7eade4;
+}
+.con5:hover{
+    color: #39e30a;
+    border: 5px dotted rgb(242, 63, 8);
+}
+.head{
+    font-weight: 640;
+    font-size: 25px;
+    font-family:monospace;
+    text-align: center;
+}
+#amer,#sing,#kuwait,#malaysia,#euro,#srilanka
+{
+    font-size: 25px;
+    font-weight: 640;
+    color:#28a0ce;
+    text-shadow:white;
+    text-align: center;
+    text-decoration:solid;
+    word-spacing: 5px;
+}
+.select{
+    margin-top: 15px;
+    margin-bottom: 18px;
+    line-height: 8px;
+    width: 50%;
+}
+#inr,#inr1,#inr2,#inr3,#inr4,#inr5{
+    border-color: cadetblue;
+    color: black;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    box-shadow:5px 5px 0 3px rgba(56, 155, 220, 0.144);
+    width: 200px;
+    margin-left: 40%;
+    
+
+}
+#inr:hover{
+    border-color:palevioletred;
+}
+#inr1:hover{
+    border-color:turquoise;
+}
+#inr2:hover{
+    border-color:rgba(17, 17, 117, 0.792);
+}
+#inr3:hover{
+    border-color:rgb(39, 183, 39);
+}
+#inr4:hover{
+    border-color:rgb(71, 156, 236);
+}
+#inr5:hover{
+    border-color:rgb(4, 137, 128);
+}
+#india{
+    margin-left: 70px;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+#arrow{
+    margin-left: 30px;
+    margin-right: 25px;
+}
+#america,#kuwa,#singa,#malay,#france,#sri{
+    margin-left: 30px;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+.button1,.button2,.button3,.button4,.button5,.button6{
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin-left: 40%;
+    border-radius: 21px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:transparent;
+    color:white;
+    cursor:pointer;
+    overflow: hidden;
+    background-color: #009688;
+
+}
+.button1:hover{
+    background-color: #04a55f;
+    color: white; 
+}
+.button2:hover{
+    background-color: #04a55f;
+    color: white; 
+}
+.button3:hover{
+    background-color: #04a55f;
+    color: white; 
+}
+.button4:hover{
+    background-color: #04a55f;
+    color: white; 
+}
+.button5:hover{
+    background-color: #04a55f;
+    color: white; 
+}
+.button6:hover{
+    background-color: #04a55f;
+    color: white; 
+}
+.foot{
+    color:rgb(40, 118, 244);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    border: 1px solid #3154c5ca;
+    width: 20%;
+    margin-left: 80%;
+    border-radius: 5px;
+}
+.foot p{
+    text-align: right;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.timer{
+    margin-left: 70%;
+    border: 3px solid rgb(240, 148, 12);
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+}
+.timer:hover{
+    border: 5px dotted rgb(240,148,12);
+}
+#time{
+    color: #06538e;
+    font-size: 22px;
+
+}
+.timing{
+    margin-left:40%;
+    border-radius: 7px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right:5px;
+    padding-bottom: 5px;
+    color:rgb(69, 54, 3);
+    background: #17b37f;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+}
+.timing:hover{
+    background-color: #2561bc;
+}
+
+/* For devices 360px to 528px(PHONES POTRAIT) */
+
+@media screen and (min-width:360px),(max-width:528px)
+{
+    .head{
+        font-size: 16px;
+        text-align: center;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    #inr,#inr1,#inr2,#inr3,#inr4,#inr5{
+      
+        border-radius: 8px;
+        padding-left: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        width: 150px;
+        margin-left:1%;
+    }
+    .button{
+        padding: 15px 0;
+        text-align: center;
+        align-items: center;
+        border-radius: 21px;
+        font-weight: bold;
+        border: 2px solid #009688;
+        background:transparent;
+        color:white;
+        cursor:pointer;
+        overflow: hidden;
+        background-color: #009688;
+    }
+    #india{
+        margin-left: 20px;
+        margin-right: 0px;
+        width: 40px;
+        height: 40px; 
+    }
+    #arrow{
+        margin-left: 20px;
+        margin-right: 0px;
+        width: 40px;
+        height: 40px; 
+    }
+    #america,#kuwa,#singa,#malay,#sri,#france{
+        margin-left: 20px;
+        margin-right: 0px;
+        width: 40px;
+        height: 40px; 
+    }
+}
+
+
+
+
+
+@media (min-width:1276px)
+{
+    .head{
+        font-weight: 640;
+        font-size: 25px;
+        font-family:monospace;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    #amer,#sing,#kuwait{
+        font-size: 25px;
+        font-weight: 640;
+        color:black;
+        text-shadow:white;
+        text-align: center;
+        text-decoration: solid;
+        word-spacing: 5px;
+    }
+    #inr,#inr1,#inr2,#inr3,#inr4,#inr5{
+        border-color: cadetblue;
+        color: black;
+        border-radius: 8px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
+        box-shadow: turquoise;
+        width: 250px;
+        margin-left: 35%;
+        
+    
+    }
+    #india{
+        margin-left: 70px;
+        margin-right: 20px;
+        border-radius: 15px;
+        height: 50px;
+        width: 50px;
+    }
+    #arrow{
+        margin-left: 30px;
+        margin-right: 0px;
+        height: 50px;
+        width: 50px;
+    }
+    #america,#kuwa,#singa,#malay,#sri,#france{
+        margin-left: 50px;
+        margin-right: 25px;
+        border-radius: 15px;
+        height: 50px;
+        width: 50px;
+
+    }
+    .button{
+        width: 100px;
+        padding: 15px 0;
+        text-align: center;
+        margin-left: 40%;
+        border-radius: 21px;
+        font-weight: bold;
+        border: 2px solid #009688;
+        background:transparent;
+        color:white;
+        cursor:pointer;
+        overflow: hidden;
+        background-color: #009688;
+      
+    }
+} 
